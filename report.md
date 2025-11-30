@@ -19,11 +19,20 @@
 # 安装说明
 
 ## 数据集下载
+使用作者提供的三个公开数据集：
 
 ## 环境依赖
+* Python3
+* Pytorch==1.9
+* Numpy==1.23.5
+* scikit-learn==1.0
+* Pandas==1.3.4
+* skorch==0.10.0
+* openpyxl==3.0.7
+* Wandb=0.12.7
 
 ## 运行命令
-训练模型
+训练模型：
 
 ```
 python trainers/tta_trainer.py --exp_name All_trg --da_method ACCUP --dataset HAR --backbone CNN --num_runs 3 
