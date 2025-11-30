@@ -16,10 +16,27 @@
 
 # 论文公式及程序代码对照
 
+公式编号 | 所属文件 | 行数
+---- | ---- | ----
+(1) | accup.py | 40-41
+(2) | accup.py | 84-85
+(3) | accup.py | 82-88
+(4) | accup.py | 56-62
+(5) | sup_contrast_loss.py | 4-26
+ 
 # 安装说明
+* 克隆项目仓库
+```
+git clone https://github.com/Tokenmw/ACCUP-main 
+```
+* 根据项目README文件说明配置环境并下载数据集
+* 在项目根目录下创建data文件夹，从数据集中选择.pt文件加入data文件夹
 
 ## 数据集下载
 使用作者提供的三个公开数据集：
+- [SSC](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/UD1IM9)
+- [UCIHAR](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/0SYHTZ)
+- [MFD](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/PU85XN)
 
 ## 环境依赖
 * Python3
@@ -29,7 +46,7 @@
 * Pandas==1.3.4
 * skorch==0.10.0
 * openpyxl==3.0.7
-* Wandb=0.12.7
+* Wandb==0.12.7
 
 ## 运行命令
 训练模型：
