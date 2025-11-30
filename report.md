@@ -23,5 +23,8 @@
 ## 环境依赖
 
 ## 运行命令
-
+训练模型
+...
+python trainers/tta_trainer.py --exp_name All_trg --da_method ACCUP --dataset HAR --backbone CNN --num_runs 3
+...
 # 运行结果
