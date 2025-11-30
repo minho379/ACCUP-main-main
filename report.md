@@ -56,3 +56,4 @@ python trainers/tta_trainer.py --exp_name All_trg --da_method ACCUP --dataset HA
 ```
 
 # 运行结果
+使用UCHAR数据集进行测试，以下是5个 UCHAR 跨领域场景的运行结果
