@@ -13,7 +13,7 @@
 * 第一个专门为广泛的时间序列应用（如人体活动识别、机械故障诊断、睡眠阶段分期）设计和系统化解决TTA问题的工作，填补了该领域的空白
 
 ## 方法流程图
-
+![flowchart](https://github.com/minho379/image/blob/main/flowchart.png)
 # 论文公式及程序代码对照
 
 公式编号 | 所属文件 | 行数
@@ -57,3 +57,13 @@ python trainers/tta_trainer.py --exp_name All_trg --da_method ACCUP --dataset HA
 
 # 运行结果
 使用UCHAR数据集进行测试，以下是5个 UCHAR 跨领域场景的运行结果
+![result1](https://github.com/minho379/image/blob/main/result1.png)
+**Total test datassize:316**  Average current f1_scores:: **98.6643354098002**  Std: **1.4163392246287927**
+![result2](https://github.com/minho379/image/blob/main/result2.png)
+**Total test datassize:372**  Average current f1_scores:: **94.8556105295817** Std: **0.27918634411596355**
+![result3](https://github.com/minho379/image/blob/main/result3.png)
+**Total test datassize:327**  Average current f1_scores:: **98.5099713007609** Std: **0.5463379412376078**
+![result4](https://github.com/minho379/image/blob/main/result4.png)
+**Total test datassize:364**  Average current f1_scores:: **85.03146370251974** Std: **1.3545420879980565**
+![result5](https://github.com/minho379/image/blob/main/result5.png)
+**Total test datassize:366**  Average current f1_scores:: **61.972316106160484** Std: **4.499716730356042**
